@@ -19,6 +19,14 @@ Aun así, no he llegado a la parte de interfaz web, ni tampoco soy muy avezado e
 
 4. Ejecuta el contenedor
 
+## Resultados esperados
+
+GET a http://localhost:8080/mi_endpoint?ABC=123
+Output Esperado: {"result": "XYZ"}
+
+GET a http://localhost:8080/mi_endpoint?ABC=456
+Output Esperado: {"result": "Invalid input"}
+
    ```bash
    docker run -p 8888:8888 -rm diego_sanchez_entrega1
    ```
